@@ -1,0 +1,84 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Google lens vs mobileNet</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js" type="text/javascript"></script>
+  
+  
+    
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <heading>Google lens VS mobileNet</heading>
+
+  <div id="number1">
+ <p>Round One: Digital Watch</p>
+<img src="watch.png" id="watch">
+<p id="notafake">MobileNet - correct</p>
+<p id="niceguy"> Google lens - double points for identifying exact model of the watch! </p>
+  </div>
+
+  <div id="number2">
+    <p>Round Two: Rubik's Cube</p>
+   <img src="cube.png" id="cube">
+   <p id="notafake">MobileNet - incorrect it identified it as a… carton?</p>
+   <p id="niceguy"> Google lens - correct</p>
+     </div>
+
+     <div id="number3">
+      <p>Round Three: Glasses</p>
+     <img src="glasses.png" id="glasses">
+     <p id="notafake">MobileNet - couldn't identify. it kept switching between stethoscope, vacuum cleaner, and shower curtain.</p>
+     <p id="niceguy"> Google lens - correct</p>
+       </div> 
+
+       <div id="number4">
+        <p>Round Four: Toothpaste</p>
+       <img src="tooth.png" id="tooth">
+       <p id="notafake">MobileNet - determined it was either a barbershop or a movie theater</p>
+       <p id="niceguy"> Google lens - double points for identifying exact brand and price!</p>
+         </div> 
+
+         <div id="number5">
+          <p>Round Five: LEGO™ Toy</p>
+         <img src="lego.png" id="lego">
+         <p id="notafake">MobileNet - identified it as a matchstick</p>
+         <p id="niceguy"> Google lens - correct</p>
+           </div> 
+
+           <div id="number6">
+            <p>Round Six: Button Phone</p>
+           <img src="phone.png" id="phone">
+           <p id="notafake">MobileNet - correct</p>
+           <p id="niceguy"> Google lens - double points for identifying exact model of phone</p>
+             </div> 
+
+             <div id="number7">
+              <p>Round Seven: Pencil</p>
+             <img src="pencil.png" id="pencil">
+             <p id="notafake">MobileNet - identified as a whistle</p>
+             <p id="niceguy"> Google lens - double points for identifying exact brand of pencil</p>
+               </div> 
+               <br><br>
+               <div id="Conclusion">
+                 <p> I have tested seven images and here's the score:</p>
+                 <p>Google Lens - 11 points</p>
+                 <p>MobileNet - 2 points</p>
+                 <br>
+                 <p>My conclusion is that Google lens is better for identifying images. </p>
+               </div>
+
+<script src="main.js"></script>
+</body>
+
+</html>

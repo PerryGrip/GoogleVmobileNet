@@ -1,0 +1,89 @@
+body{
+    text-align: center;
+    background-color: rgb(65, 220, 225);
+}
+heading{
+ background-color: rgb(65, 220, 225);
+ width: 100%;
+ font-size: xx-large;
+}
+#number1{
+    background-color: white;
+    border-radius: 50px;
+
+}
+#watch{
+    width: 200px;
+    height: 200px;
+    margin-right: 1200px;
+    margin-bottom: 20px;
+}
+#number2{
+    background-color: white;
+    border-radius: 50px;
+
+}
+#cube{
+    width: 200px;
+    height: 200px;
+    margin-right: 1200px;
+    margin-bottom: 20px;
+}
+#number3{
+    background-color: white;
+    border-radius: 50px;
+
+}
+#glasses{
+    width: 300px;
+    height: 200px;
+    margin-right: 1100px;
+    margin-bottom: 20px;
+}
+#number4{
+    background-color: white;
+    border-radius: 50px;
+
+}
+#tooth{
+    width: 400px;
+    height: 200px;
+    margin-right: 1000px;
+    margin-bottom: 20px;
+}
+#number5{
+    background-color: white;
+    border-radius: 50px;
+
+}
+#lego{
+    width: 200px;
+    height: 200px;
+    margin-right: 1000px;
+    margin-bottom: 20px;
+}
+#number6{
+    background-color: white;
+    border-radius: 50px;
+
+}
+#phone{
+    width: 200px;
+    height: 250px;
+    margin-right: 1000px;
+    margin-bottom: 20px;
+}
+#number7{
+    background-color: white;
+    border-radius: 50px;
+
+}
+#pencil{
+    width: 400px;
+    height: 100px;
+    margin-right: 1000px;
+    margin-bottom: 20px;
+}
+#Conclusion{
+background-color: white;
+}
